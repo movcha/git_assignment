@@ -16,3 +16,16 @@ d. Give me a step by step guide on how to add someone to your repository.
 4. Enter GitHub username
 5. Choose the appropriate permission
 6. Select Add
+
+e. What is the difference between git and GitHub?
+Git is a version control system that is used to track changes in files and coordinate work among multiple people
+GitHub, is a platform built around Git that provides hosting for Git repositories, addind features as issues and pull requests
+
+f. What does git diff do?
+Shows the changes between two states (commits or branches) in repository.
+
+g. What is the main branch?
+Default branch in a repository (considered as primary/development branch)
+
+h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the main branch?
+No, it is not recommended in a collaborative environment. You need to create branch, open a PR, and merge after a rewiev to have a clean history.
